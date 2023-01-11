@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-
+import {AiOutlineSearch} from "react-icons/ai";
 
 const SearchBar = () => {
 
@@ -9,7 +9,7 @@ const SearchBar = () => {
 
   { name: "Dell", price: "100000000" },
   { name: "India", price: "102002093" },
-
+  {name:"hp", price :"102398232389"}
   
 
 ];
@@ -28,12 +28,13 @@ if (searchInput.length > 0) {
 return <div>
 
 <input
-   className='mt-10 border-2 w-full text-center outline-none p-4 w-96'
+   className='mt-10 border-2 w-full text-center outline-none p-4 w-96 collapse lg:visible'
    type="search"
    placeholder="Search anything here...."
    onChange={handleChange}   
-   value={searchInput} />
- 
+   value={searchInput} 
+   icon={< AiOutlineSearch />}
+   />
 </div>
 
 

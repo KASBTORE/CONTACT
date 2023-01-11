@@ -1,3 +1,5 @@
+
+import {HiOutlineGlobe} from 'react-icons/hi';
 export const MenuItems=[
     {
        title:'Home',
@@ -17,12 +19,14 @@ export const MenuItems=[
     {
         ntitle:'Kigali',
         stitle:'Free Shipping',
-        cname:'nav-list'
+        cname:'nav-list',
+        icon:<HiOutlineGlobe/>
     },
     {
       ntitle:'24 Support',
         stitle:'+250 788 458 897',
-        cname:'nav-list'
+        cname:'nav-list',
+        icon: <HiOutlineGlobe/>
     }
    
 ]
