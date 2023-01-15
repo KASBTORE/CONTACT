@@ -9,7 +9,9 @@ import Footer from './components/Footer';
 import {FaInstagram} from "react-icons/fa";
 import {FaGreaterThan} from "react-icons/fa";
 import Hover from "./components/Hover";
-function App() {
+function App()
+{
+
   return <div className="App font-san-serif font-light overflow-x-hidden lg:overflow-hidden ">  
       
     <h1 className='lg:bg-black-0 lg:text-xs lg:ml-[20rem] lg:mt-4 collapse lg:visible'>+250 788 458 897</h1>
